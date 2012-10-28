@@ -1,7 +1,9 @@
 exports.TestWindow = function(navController) {
 	
+	var TestWindow = require('TestWindow').TestWindow;
+	
 	var win = Ti.UI.createWindow({
-		title:'Window ' + controller.windowStack.length,
+		title:'Window ' + navController.windowStack.length,
 		backgroundColor:'#fff',
 		layout:'vertical'
 	});
